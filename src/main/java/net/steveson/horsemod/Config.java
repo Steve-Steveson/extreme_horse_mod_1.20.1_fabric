@@ -59,30 +59,4 @@ public class Config {
             .defineInRange("strongerLlamaChance", 0.04, 0, 0.5);
 
     static final ForgeConfigSpec SPEC = BUILDER.build();
-
-//    public static boolean eatChicken;
-//    public static boolean eatAndRun;
-//    public static boolean keepMatching;
-//    public static double maxHealth;
-//    public static double minHealth;
-//    public static double maxJump;
-//    public static double minJump;
-//    public static double maxSpeed;
-//    public static double minSpeed;
-//    public static double buildBetterLlamas;
-//
-//    @SubscribeEvent
-//    static void onLoad(final ModConfigEvent event)
-//    {
-//        eatChicken = H_EATS_CHICKENS.get();
-//        eatAndRun = FAST_FOOD.get();
-//        keepMatching = KEEP_MATCHING_STATS.get();
-//        maxHealth = H_MAX_HEALTH.get();
-//        minHealth = H_MIN_HEALTH.get();
-//        maxJump = H_MAX_JUMP.get();
-//        minJump = H_MIN_JUMP.get();
-//        maxSpeed = H_MAX_SPEED.get();
-//        minSpeed = H_MIN_SPEED.get();
-//        buildBetterLlamas = BETTER_LLAMA_CHANCE.get();
-//    }
 }

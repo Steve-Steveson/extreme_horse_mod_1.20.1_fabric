@@ -18,7 +18,6 @@ public class ExtremeHorseMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		// Register and load config
-//		ModLoadingContext.registerConfig(MOD_ID, ModConfig.Type.COMMON, Config.SPEC, "AdvancedGenetics.toml");
 		ForgeConfigRegistry.INSTANCE.register(MOD_ID, ModConfig.Type.COMMON, Config.SPEC);
 
 		// This code runs as soon as Minecraft is in a mod-load-ready state.

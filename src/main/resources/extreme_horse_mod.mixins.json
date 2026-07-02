@@ -1,15 +1,16 @@
 {
-	"required": true,
-	"package": "net.steveson.horsemod.mixin",
-	"compatibilityLevel": "JAVA_17",
-	"mixins": [
-		"AbstractHorseMixin",
-		"HorseMixin"
-	],
-	"injectors": {
-		"defaultRequire": 1
-	},
-	"overwrites": {
-		"requireAnnotations": true
+  "required": true,
+  "package": "net.steveson.horsemod.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "AbstractHorseMixin",
+    "HorseMixin",
+    "LlamaMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
 	}
 }

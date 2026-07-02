@@ -16,10 +16,7 @@ public abstract class AbstractHorseMixin extends AnimalEntity {
     protected AbstractHorseMixin(EntityType<? extends AnimalEntity> entityType, World world) {
         super(entityType, world);
     }
-//	@Inject(at = @At("HEAD"), method = "loadLevel")
-//	private void init(CallbackInfo info) {
-//		// This code is injected into the start of MinecraftServer.loadLevel()V
-//	}
+
     /**
      * @author Minecraft
      * @reason Complete re-write of to use config min and max, keep matching stats, and not lose max stats every time.
