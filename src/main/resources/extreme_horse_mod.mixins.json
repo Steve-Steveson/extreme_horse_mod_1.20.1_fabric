@@ -3,7 +3,8 @@
 	"package": "net.steveson.horsemod.mixin",
 	"compatibilityLevel": "JAVA_17",
 	"mixins": [
-		"AbstractHorseMixin"
+		"AbstractHorseMixin",
+		"HorseMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
